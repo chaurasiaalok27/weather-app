@@ -1,0 +1,76 @@
+.main-container {
+    background-color: lightblue;
+    margin: none;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    .data-container {
+        display: flex;
+        margin: 60px;
+        height: 48vh;
+        flex-basis: 60%;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #f2f2f2;
+        border-radius: 20px;
+        
+        .fist-container {
+            flex-basis: 48%;
+            height: 48vh;
+            background-color: lightcoral;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+            
+            .temp {
+                font-family: 'Hind', sans-serif;
+                font-size: 60px;
+                padding: 20px;
+                font-weight: 200;
+                text-align: left;
+                color: linen;
+                padding-top: 80px;
+            }
+            .description {
+                font-family: 'Hind', sans-serif;
+                font-size: 20px;
+                padding: 20px;
+                text-align: left;
+                padding: 20px;
+                color: linen;
+            }
+            .line {
+                margin: 4%;
+                
+                border:0.1px solid wheat;
+            }
+            .location {
+                font-family: 'Hind', sans-serif;
+                font-size: 24px;
+                padding-top: none;
+                margin: none;
+                padding-left: 24px;
+                text-align: left;
+                padding: 20px;
+                color: linen;
+                padding-bottom: 40px;
+            }
+        }
+        .second-container {
+            flex-basis: 52%;
+            height: 48vh;
+            background-color: lightskyblue;
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+            .image {
+                padding: 100px;
+                height: 40%;
+                width: 40%;
+            }
+        }
+    }
+}

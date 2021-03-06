@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .input {
+    width: 80%;
+    padding: 10px;
+    margin: 50px;
+  }
+  .btn {
+    width: 40%;
+    height: 40px;
+    color: wheat;
+    background-color: crimson;
+  }
+}
