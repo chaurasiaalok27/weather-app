@@ -18,9 +18,9 @@ function App() {
   //   setDes(d.weather[0].description);
   // }
   const weatherHandler = () => {
-    let key = "4e20ff0822954a77ab94b3fcb66528b2";
+    
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${key}`
+      `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=4e20ff0822954a77ab94b3fcb66528b2`
     )
       .then(res => {
         return res.json();
