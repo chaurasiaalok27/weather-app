@@ -17,10 +17,10 @@ function App() {
   //   setLocation(d.name);
   //   setDes(d.weather[0].description);
   // }
-  const weatherHandler = () => {
+  const weatherHandler = async () => {
     
-    fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=4e20ff0822954a77ab94b3fcb66528b2`
+    await fetch(
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=4e20ff0822954a77ab94b3fcb66528b2`
     )
       .then(res => {
         return res.json();
