@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/weather-app/static/css/main.a72b26fe.chunk.css",
-    "main.js": "/weather-app/static/js/main.a642ef80.chunk.js",
-    "main.js.map": "/weather-app/static/js/main.a642ef80.chunk.js.map",
-    "runtime-main.js": "/weather-app/static/js/runtime-main.834b7dab.js",
-    "runtime-main.js.map": "/weather-app/static/js/runtime-main.834b7dab.js.map",
-    "static/js/2.fadf4318.chunk.js": "/weather-app/static/js/2.fadf4318.chunk.js",
-    "static/js/2.fadf4318.chunk.js.map": "/weather-app/static/js/2.fadf4318.chunk.js.map",
-    "static/js/3.93a0d9d9.chunk.js": "/weather-app/static/js/3.93a0d9d9.chunk.js",
-    "static/js/3.93a0d9d9.chunk.js.map": "/weather-app/static/js/3.93a0d9d9.chunk.js.map",
+    "main.js": "/weather-app/static/js/main.ac5faf06.chunk.js",
+    "main.js.map": "/weather-app/static/js/main.ac5faf06.chunk.js.map",
+    "runtime-main.js": "/weather-app/static/js/runtime-main.f2884c38.js",
+    "runtime-main.js.map": "/weather-app/static/js/runtime-main.f2884c38.js.map",
+    "static/js/2.94e2a754.chunk.js": "/weather-app/static/js/2.94e2a754.chunk.js",
+    "static/js/2.94e2a754.chunk.js.map": "/weather-app/static/js/2.94e2a754.chunk.js.map",
+    "static/js/3.4f226c34.chunk.js": "/weather-app/static/js/3.4f226c34.chunk.js",
+    "static/js/3.4f226c34.chunk.js.map": "/weather-app/static/js/3.4f226c34.chunk.js.map",
     "index.html": "/weather-app/index.html",
     "static/css/main.a72b26fe.chunk.css.map": "/weather-app/static/css/main.a72b26fe.chunk.css.map",
-    "static/js/2.fadf4318.chunk.js.LICENSE.txt": "/weather-app/static/js/2.fadf4318.chunk.js.LICENSE.txt"
+    "static/js/2.94e2a754.chunk.js.LICENSE.txt": "/weather-app/static/js/2.94e2a754.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.834b7dab.js",
-    "static/js/2.fadf4318.chunk.js",
+    "static/js/runtime-main.f2884c38.js",
+    "static/js/2.94e2a754.chunk.js",
     "static/css/main.a72b26fe.chunk.css",
-    "static/js/main.a642ef80.chunk.js"
+    "static/js/main.ac5faf06.chunk.js"
   ]
 }
