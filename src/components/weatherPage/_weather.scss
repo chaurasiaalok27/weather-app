@@ -40,6 +40,7 @@
                 font-size: 20px;
                 padding: 20px;
                 text-align: left;
+                
                 padding: 20px;
                 color: linen;
             }
@@ -63,13 +64,22 @@
         .second-container {
             flex-basis: 52%;
             height: 48vh;
+            display: flex;
+            flex-direction: column;
             background-color: lightskyblue;
             border-bottom-right-radius: 20px;
             border-top-right-radius: 20px;
+            align-items: center;
             .image {
-                padding: 100px;
-                height: 40%;
-                width: 40%;
+                flex-basis: 80%;
+            }
+            .btn2 {
+              width: 50%;
+               flex-basis: 10%;
+               cursor: pointer;
+               border-radius: 6px;
+               background-color: lightgray;
+               border-color: lightcoral;
             }
         }
     }

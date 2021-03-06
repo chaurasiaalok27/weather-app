@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Weather = ({ data }) => {
+const Weather = ({ data, reset }) => {
     var celcius = Math.round(parseFloat(data.main.temp) - 273.15);
     return (
         <div className="main-container">
@@ -17,8 +17,10 @@ const Weather = ({ data }) => {
             </div>
             <div className='second-container'>
             <img className="image" src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} />
+            <button className="btn2" onClick={reset} >Reset</button>
             </div>
         </div>
+        
         </div>
     )
 }

@@ -30,6 +30,10 @@ function App() {
         setFlag(false);
       })
   }
+  const reset = () => {
+    setcity('');
+    setFlag(true);
+  }
   return (
     <div className="App">
       {   flag? 
@@ -37,7 +41,7 @@ function App() {
           <input className="input" placeholder="Enter City Name" onChange={e => setcity(e.target.value)}></input>
           <button className="btn" onClick={weatherHandler} disabled = {city.trim()===''}>Check Weather</button>
         </> :
-       <Weather data={data} />
+       <Weather data={data} reset={reset}/>
       }
 
     </div>
